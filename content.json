@@ -1,0 +1,21 @@
+{
+    "Format": "1.28.1",
+    "Changes": [
+		{	
+            "LogName": "Events",
+            "Action": "Include",
+            "FromFile": "Data/Events.json",
+        },
+		{	
+            "LogName": "Dialogues",
+            "Action": "Include",
+            "FromFile": "Data/Dialogue.json",
+        },
+		{
+			"LogName": "Misc",
+			"Action": "Include",
+			"FromFile": "Data/Misc.json",
+		},
+		
+    ]
+}
