@@ -1,0 +1,146 @@
+{
+    "Format": "1.29.0",
+
+    "Changes": [
+		{
+            "LogName": "Vanilla Gift Taste Reactions",
+            "Action": "Include",
+            "FromFile": "Data/Vanilla.json"
+        },
+        {
+			"LogName": "Wildflour's Alchemist Makeup Gift Tastes",
+			"Action": "Include",
+			"FromFile": "Data/Wildflour.json",
+            "When": 
+            {
+                "HasMod: |contains= wildflour.alchemistmakeup, wildflour.megapack": true
+		    }
+        },
+        {
+			"LogName": "Wildflour's Beverage Bar Gift Tastes",
+			"Action": "Include",
+			"FromFile": "Data/Wildflour.json",
+            "When": 
+            {
+                "HasMod: |contains= wildflour.atelierjuicebar, wildflour.megapack": true
+		    }
+        },
+        {
+			"LogName": "Wildflour's Candy Gift Tastes",
+			"Action": "Include",
+			"FromFile": "Data/Wildflour.json",
+            "When": 
+            {
+                "HasMod: |contains= wildflour.ateliercandy, wildflour.megapack": true
+		    }
+        },
+        {
+			"LogName": "Wildflour's Chilly Treats Gift Tastes",
+			"Action": "Include",
+			"FromFile": "Data/Wildflour.json",
+            "When": 
+            {
+                "HasMod: |contains= wildflour.atelierfrozen, wildflour.megapack": true
+		    }
+        },
+        {
+			"LogName": "Wildflour's Coffee Pack Gift Tastes",
+			"Action": "Include",
+			"FromFile": "Data/Wildflour.json",
+            "When": 
+            {
+                "HasMod: |contains= wildflour.ateliercoffee, wildflour.megapack": true
+		    }
+        },
+        {
+			"LogName": "Wildflour's Faerie Garden Gift Tastes",
+			"Action": "Include",
+			"FromFile": "Data/Wildflour.json",
+            "When": 
+            {
+                "HasMod: |contains= wildflour.fairiegarden, wildflour.megapack": true
+		    }
+        },
+        {
+			"LogName": "Wildflour's Floral Generic Gift Tastes",
+			"Action": "Include",
+			"FromFile": "Data/Wildflour.json",
+            "When": 
+            {
+                "HasMod: |contains= wildflour.atelierfloralvanillaplus, wildflour.megapack": true
+		    }
+        },
+        {
+			"LogName": "Wildflour's Floral Goods Gift Tastes",
+			"Action": "Include",
+			"FromFile": "Data/Wildflour.json",
+            "When": 
+            {
+                "HasMod: |contains= wildflour.atelierfloral, wildflour.megapack": true
+		    }
+        },
+        {
+			"LogName": "Wildflour's Gourmet Bakery Gift Tastes",
+			"Action": "Include",
+			"FromFile": "Data/Wildflour.json",
+            "When": 
+            {
+                "HasMod: |contains= wildflour.bakery, wildflour.megapack": true
+		    }
+        },
+        {
+            "LogName": "Wildflour's Gourmet Pantry Gift Tastes",
+            "Action": "Include",
+            "FromFile": "Data/Wildflour.json",
+            "When": 
+            {
+                "HasMod: |contains= wildflour.gourmetpantry, wildflour.megapack": true
+            }
+        },
+        {
+            "LogName": "Wildflour's Jams Gift Tastes",
+            "Action": "Include",
+            "FromFile": "Data/Wildflour.json",
+            "When": 
+            {
+                "HasMod: |contains= wildflour.jams, wildflour.megapack": true
+            }
+        },
+        {
+            "LogName": "Wildflour's Pickles Gift Tastes",
+            "Action": "Include",
+            "FromFile": "Data/Wildflour.json",
+            "When": 
+            {
+                "HasMod: |contains= wildflour.pickles, wildflour.megapack": true
+            }
+        },
+        {
+            "LogName": "Wildflour's Specialty Ales Gift Tastes",
+            "Action": "Include",
+            "FromFile": "Data/Wildflour.json",
+            "When": 
+            {
+                "HasMod: |contains= wildflour.SpecialtyAles, wildflour.megapack": true
+            }
+        },
+        {
+			"LogName": "Wildflour's Tea Pack Gift Tastes",
+			"Action": "Include",
+			"FromFile": "Data/Wildflour.json",
+            "When": 
+            {
+                "HasMod: |contains= wildflour.atelierteas, wildflour.megapack": true
+		    }
+        },
+        {
+			"LogName": "Wildflour's Wild Food Gift Tastes",
+			"Action": "Include",
+			"FromFile": "Data/Wildflour.json",
+            "When": 
+            {
+                "HasMod: |contains= wildflour.wildfoodforage, wildflour.megapack": true
+		    }
+        }
+    ]
+}
