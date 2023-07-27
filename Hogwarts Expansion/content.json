@@ -1,0 +1,39 @@
+{
+  "Format": "1.28.0",
+  "Changes": [
+		{
+			"LogName": "Load Portraits",
+			"Action": "Load",
+			"Target": "Portraits/Adrian, Portraits/Coby, Portraits/Dromgoole, Portraits/Levina, Portraits/Mnemone, Portraits/Nozea, Portraits/Winky",
+			"FromFile": "assets/{{Target}}.png"
+		},
+		{
+			"LogName": "Load Sprites",
+			"Action": "Load",
+			"Target": "Characters/Adrian, Characters/Coby, Characters/Dromgoole, Characters/Levina, Characters/Mnemone, Characters/Nozea, Characters/Winky",
+			"FromFile": "assets/{{Target}}.png"
+		},
+		{
+			"LogName": "Hogwarts Event Blanks",
+			"Action": "Load",
+			"Target": "Data/Events/Custom_HogwartsAstronomyWingG1F, Data/Events/Custom_HogwartsAstronomyWing2F, Data/Events/Custom_HogwartsAstronomyWing3F, Data/Events/Custom_HogwartsAstronomyWing4F, Data/Events/Custom_HogwartsAstronomyWing5F, Data/Events/Custom_HogwartsAstronomyWing6F, Data/Events/Custom_HogwartsBellTowerWingGF, Data/Events/Custom_HogwartsCentralHallGF, Data/Events/Custom_HogwartsClockTowerCourtyard, Data/Events/Custom_HogwartsClockTowerGF, Data/Events/Custom_HogwartsDADAClassroom, Data/Events/Custom_HogwartsDivinationRoom, Data/Events/Custom_HogwartsDivinationTower, Data/Events/Custom_HogwartsGrandStaircase, Data/Events/Custom_HogwartsGreatHall, Data/Events/Custom_HogwartsGryffindorTower, Data/Events/Custom_HogwartsHistoryOfMagicClassroom, Data/Events/Custom_HogwartsPotionsClassroom, Data/Events/Custom_HogwartsRavenclawCommonRoom, Data/Events/Custom_HogwartsRavenclawTower, Data/Events/Custom_HogwartsReceptionHallGF, Data/Events/Custom_HogwartsSlytherinCommonRoom, Data/Events/Custom_HogwartsSlytherinDungeon, Data/Events/Custom_HogwartsSouthWing, Data/Events/Custom_HogwartsTransfigurationClassroom, Data/Events/Custom_HogwartsTransfigurationCourtyard, Data/Events/Custom_HogwartsTrophyRoom, Data/Events/Custom_HogwartsViaductCourtyard, Data/Events/Custom_HogwartsVivarium, Data/Events/Custom_HogwartsForbiddenForest1", //  NEED: greenhouses? more south wings?
+			"FromFile": "assets/blank.json"
+		},
+		{
+			"LogName": "Hogsmeade Event Blanks",
+			"Action": "Load",
+			"Target": "Data/Events/Custom_BroodAndPeck, Data/Events/Custom_CeridwensCauldrons, Data/Events/Custom_DervishandBanges, Data/Events/Custom_DogweedandDeathcap, Data/Events/Custom_GladragsWizardwear, Data/Events/Custom_HogsHeadInn, Data/Events/Custom_HogsmeadeStation, Data/Events/Custom_HogsmeadeVillage, Data/Events/Custom_Honeydukes, Data/Events/Custom_JPippinsPotions, Data/Events/Custom_MadamPuddifootsTeaShop, Data/Events/Custom_Ollivanders, Data/Events/Custom_StitchesAndDraughts, Data/Events/Custom_TheMagicNeep, Data/Events/Custom_ThreeBroomsticksInn, Data/Events/Custom_TomesAndScrolls, Data/Events/Custom_ZonkosJokeShop"
+		},
+		{
+			"LogName": "Dialogue & Schedule Blanks",
+			"Action": "Load",
+			"Target": "Data/Dialogue/Adrian, Data/Dialogue/Coby, Data/Dialogue/Levina, Data/Dialogue/Mnemone, Data/Dialogue/Nozea, Data/Dialogue/Winky",
+			"FromFile": "Data/blank.json"
+		},
+		{
+			"LogName": "Various Includes",
+			"Action": "Include",
+			"FromFile": "Data/NPCData.json, Data/Events.json, Data/Dialogue/Adrian.json, Data/Dialogue/Coby.json, Data/Dialogue/Levina.json, Data/Dialogue/Mnemone.json, Data/Dialogue/Nozea.json, Data/Dialogue/Winky.json"
+		}
+      ]
+    }
